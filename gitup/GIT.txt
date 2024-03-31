@@ -1,0 +1,67 @@
+cloning file from git repo
+====================
+1.git clone https://github.com/surekaboobalan/VISUAL-STUDIO-CODE.git
+
+2.cd FOLDER NAME(THIS COMMAND LL ENTER INTO THE FOLDER NAME)
+
+3.git status
+==>u (undefined)
+
+=======================
+insert =>add=>commit=>push
+any modification=>add=>commit=>push
+=========================
+to push working file in git repo
+
+1.git add test2.txt(waiting)
+==>a (added)
+
+2.git commit -m "commit mesage"
+
+3.git push origin main 
+====================
+
+to pull a file from git repo(only changes made in repo it ll make changes)
+ ===========================
+1.git pull (if u made changes in repo now u wanted 
+to make the chnges in local git pull is used)
+====================
+==================
+cd ..(fo.der back)
+====================
+
+to push a new folder to git repo(not the old one)
+====================
+git init
+
+git add .(added modified file alone)
+
+git remote add origin repo link
+
+git branch (which branch nu paka ex:master )
+
+git branch -M main(branch name changed to main)
+
+git branch (check the brancch name changed) 
+
+git push origin main
+
+
+=========================
+git branch -a (list out the branches wat al in repo & 
+which branch using currently)
+================================
+
+now wanna to move to git branch 
+================
+git checkout branch name
+
+now check with 
+======
+git branch -a
+==========
+git diff branch name(chevvk the dif b/w 2 branch)
+=========
+git merge BRANCH NAME 
+ git push origin main
+
